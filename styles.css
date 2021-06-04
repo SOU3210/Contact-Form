@@ -1,0 +1,58 @@
+  /* Container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
+
+  /*Contact Form*/
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #4A4A4A;
+
+
+  }
+
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A4A4A;
+    font-size: 16px;
+    border-color: #0087AA;   
+
+  }
+
+  input[type=text], input[type=email] , textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 36px;
+    background-color: white;
+    border-color: #0087AA;   
+  }
+
+  input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 36px;
+    background-color: #0087AA;
+    border-color: #0087AA;   
+    width: 100%;
+    color: white;   
+  }
+
+  
+    input[type=submit]:hover {
+        background-color: #1997B7;   
+    }
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally)*/
+}
